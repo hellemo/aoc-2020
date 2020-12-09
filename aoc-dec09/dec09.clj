@@ -88,7 +88,6 @@
 (defn dec09-2 [input pre]
   (let [li (to-integers input)
         magicnumber (dec09-1 input pre)]
-    ;; (println magicnumber)
     (compute-res li magicnumber)))
 
 (tst/is (= (dec09-2 td1 5) 62))
